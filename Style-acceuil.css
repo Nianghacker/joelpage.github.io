@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & family= Sawarabi+Mincho & display=swap');
+
+header{
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    animation:change 50s infinite ease-in-out;
+}
+
+
+.im a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px ;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0,7);
+}
+
+
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+header .acceuil-1 ul li ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header .acceuil-1 ul li{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+body{
+    background: url(./image/pen-2683078_1920.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header .acceuil-1 ul li a{
+    display: block;
+}
+
+header .acceuil-1 ul li a:hover{
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+header .acceuil-1 ul li ul li {
+    display: none;
+}
+
+header .acceuil-1 ul li:hover ul li{
+    display: block;
+}
+
+
+
+ul li a {
+    text-decoration:none ;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #fff transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background: #FFF;
+    color: #000;
+}
+
+ul li.vite a{
+    background: #fff;
+    color: #000;
+}
+
+.acceuil{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titre h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+}
+
+.bouton{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.btn{
+    transition: 0,6s ease;
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    background: #fff;
+}
+
+.A .contenu-1 h1 a{
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+}
+
+.contenu-1{
+    position: relative;
+    top: 50%;
+    right: -10%;
+   margin-top: 50px;
+    transform: translate(-50% -50%);
+    width: 800px;
+    padding: 100px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgb(0, 0, 0,.2);
+    
+}
+
+.cercle-1{
+    width: 200px;
+    height: 200px;
+    background: url(./image/france-flag-1058699_1280.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:30px
+}
+
+.cercle-2{
+    
+    width: 200px;
+    height: 200px;
+    background: url(./image/emirate.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:30px
+}
+
+.cercle-3{
+    
+    width: 200px;
+    height: 200px;
+    background: url(./image/july-16674_1280.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:30px
+}
+
+.cercle-4{
+    
+    width: 200px;
+    height: 200px;
+    background: url(./image/Italie.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:30px
+}
+
+.cercle-5{
+    
+    width: 200px;
+    height: 200px;
+    background: url(./image/iceland-1460211_1920.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:30px
+}
+
+.cercle-6{
+    
+    width: 200px;
+    height: 200px;
+    background: url(./image/egypt-4610900_1920.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:30px
+}
+
+.cercle-7{
+    
+    width: 200px;
+    height: 200px;
+    background: url(./image/morocco-4610910_1920.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:30px
+}
+
+@keyframes change{
+    0%{
+        background-image: url(./image/brooklyn-bridge-1791001_1920.jpg);
+    }
+
+    10%{
+        background-image: url(./image/acceuil/abu-dhabi-4604499_1920.jpg);
+    }
+
+    20%{
+        background-image: url(./image/acceuil/arc-de-triomphe-101633_1280.jpg);
+    }
+
+    30%{
+        background-image: url(./image/acceuil/cityscape-6516367_1920.jpg);
+    }
+
+    40%{
+        background-image: url(./image/acceuil/desert-2435404_1920.jpg);
+    }
+
+    50%{
+        background-image: url(./image/acceuil/egypt-2226780_1920.jpg);
+    }
+
+    60%{
+        background-image: url(./image/acceuil/grand-canal-1933559_1920.jpg);
+    }
+
+    70%{
+        background-image: url(./image/acceuil/hollywood-3712525_1920.jpg);
+    }
+
+    80%{
+        background-image: url(./image/acceuil/passport-2714675_1920.jpg);
+    }
+
+    90%{
+        background-image: url(./image/acceuil/ramadan-4159961_1920.jpg);
+    }
+
+    0%{
+        background-image: url(./image/acceuil/the-hassan-ii-mosque-4703808_1920.jpg);
+    }
+}
+
+
+
